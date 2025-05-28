@@ -8,6 +8,7 @@ import Projects from '../components/Projects';
 import Achievements from '../components/Achievements';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import ChatBot from '../components/ChatBot';
 
 const Index = () => {
   useEffect(() => {
@@ -40,6 +41,7 @@ const Index = () => {
       <Achievements />
       <Contact />
       <Footer />
+      <ChatBot />
     </div>
   );
 };
